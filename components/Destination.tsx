@@ -5,15 +5,9 @@ interface SiteProps {
 	backgroundImage: string;
 	title: string;
 	subtitle: string;
-	peopleJoined: string;
 }
 
-const DestinationSite = ({
-	backgroundImage,
-	title,
-	subtitle,
-	peopleJoined,
-}: SiteProps) => {
+const DestinationSite = ({ backgroundImage, title, subtitle }: SiteProps) => {
 	return (
 		<div
 			className={`h-full  min-w-[500px] ${backgroundImage} bg-cover bg-no-repeat lg:rounded-r-5xl 2xl:rounded-5xl`}
@@ -46,25 +40,21 @@ const Destination = () => {
 					backgroundImage="bg-bg-img-1"
 					title="Putuk Truno Camp"
 					subtitle="Prigen, Pasuruan"
-					peopleJoined="50+ Joined"
 				/>
 				<DestinationSite
 					backgroundImage="bg-bg-img-2"
 					title="Mountain View Camp"
 					subtitle="Somewhere in the Wilderness"
-					peopleJoined="50+ Joined"
 				/>
 				<DestinationSite
 					backgroundImage="bg-bg-img-2"
 					title="Mountain View Camp"
 					subtitle="Somewhere in the Wilderness"
-					peopleJoined="50+ Joined"
 				/>
 				<DestinationSite
 					backgroundImage="bg-bg-img-2"
 					title="Mountain View Camp"
 					subtitle="Somewhere in the Wilderness"
-					peopleJoined="50+ Joined"
 				/>
 			</div>
 

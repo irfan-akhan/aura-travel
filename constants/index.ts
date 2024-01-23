@@ -13,6 +13,51 @@ export const PEOPLE_URL = [
 	"/person-4.png",
 ];
 
+// HOTELS SECTION
+export const HOTELS = [
+	{
+		title: "Enchanting Pahalgam: A Gateway to Paradise in Jammu and Kashmir",
+		imageSet: ["/map.svg"],
+		tabs: [
+			"Hourse Ridding",
+			"Sightseeing",
+			"River Rafting",
+			"Golfing",
+			"Camping",
+		],
+		description:
+			"Indulge in the captivating beauty of Pahalgam with our exclusive tour package. Nestled in the enchanting landscapes of Jammu and Kashmir, Pahalgam offers a perfect getaway for those seeking tranquility and natural splendor. Immerse yourself in the serene vibes, picturesque meadows, and the scenic Lidder River. From leisurely walks along saffron fields to the breathtaking vistas of Betaab Valley, our tour promises a rejuvenating experience in this idyllic destination. Let Pahalgam be your haven for a blissful escape amidst nature's wonders.",
+	},
+	{
+		title:  "Gulmarg Bliss: A Winter Wonderland in the Heart of Kashmir",
+		imageSet: ["/map.svg"],
+		tabs: [
+			"Gondola",
+			"Sightseeing",
+			"Apharwat Peak",
+			"snowboarding",
+			"skiing",
+			"Camping",
+		],
+		description:
+		"Embark on a magical journey to Gulmarg, a winter paradise nestled in the heart of Kashmir. Our exclusive tour package invites you to experience the enchanting beauty of this snow-laden haven. Known for its pristine landscapes and world-class skiing opportunities, Gulmarg is a delight for nature enthusiasts and adventure seekers alike. Immerse yourself in the thrill of snow sports or take a leisurely stroll through the Gulmarg Biosphere Reserve, surrounded by towering pines. With its majestic views of the Himalayas and the iconic Gulmarg Gondola, the highest cable car in the world, Gulmarg promises a winter wonderland experience like no other. Join us for an unforgettable escape into the snowy charms of Gulmarg",
+	},
+	{
+		title:  "Srinagar Serenity: A Tranquil Escape in the Heart of the Dal Lake",
+		imageSet: ["/map.svg"],
+		tabs: [
+			"Mughal Gardens",
+			"Sightseeing",
+			"Dal lake",
+			"Golfing",
+			"Hazratbal Shrine",
+			"Jamia Masjid",
+		],
+		description:
+		"Embark on a serene journey to Srinagar, the crown jewel of Kashmir, with our bespoke tour package. Nestled along the shores of the iconic Dal Lake, Srinagar invites you to immerse yourself in its timeless beauty and cultural richness. Cruise the tranquil waters on a traditional Shikara, surrounded by floating gardens and historic Mughal gardens like Shalimar Bagh and Nishat Bagh. Explore the vibrant old city with its bustling markets, showcasing exquisite handicrafts and spices. The charm of houseboats and the backdrop of snow-capped mountains make Srinagar a truly enchanting destination. Join us to discover the tranquility and cultural allure of Srinagar, where every moment becomes a cherished memory.",
+	},
+	 
+];
 // FEATURES SECTION
 export const FEATURES = [
 	{
@@ -59,7 +104,7 @@ export const FOOTER_CONTACT_INFO = {
 		{ label: "Primary Phone", value: "+91 8716006004" },
 		{ label: "Secondary Phone", value: "+91 88999125611" },
 		{ label: "Other", value: "+91 7006754265" },
-		{ label: "Email Officer", value: "hilink@akinthil.com" },
+		{ label: "Email Officer", value: "aurastayskashmir@gmail.com" },
 	],
 };
 
