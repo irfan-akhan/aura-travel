@@ -40,31 +40,26 @@ const Destination = () => {
 					backgroundImage="bg-tour1"
 					title="Kashmir 3 Days 2 Nights Tour"
 					subtitle="Srinagr, Pahalgam, Gulmarg"
-					peopleJoined="50+ Joined"
 				/>
 				<DestinationSite
 					backgroundImage="bg-tour2"
 					title="Kashmir 4 Days 3 Nights Tour"
 					subtitle="Srinagar, Gulmarg, Pahalgam"
-					peopleJoined="50+ Joined"
 				/>
 				<DestinationSite
 					backgroundImage="bg-tour3"
 					title="Kashmir 5 Days 4 Nights Tour"
 					subtitle="Srinagar, Gulmarg, Pahalgam, Sonmarg"
-					peopleJoined="50+ Joined"
 				/>
 				<DestinationSite
 					backgroundImage="bg-tour4"
 					title="Kashmir 6 Days 5 Nights Tour"
 					subtitle="Srinagar, Gulmarg, Pahalgam, Sonmarg, Exploration"
-					peopleJoined="50+ Joined"
 				/>
 				<DestinationSite
 					backgroundImage="bg-tour5"
 					title="Kashmir 7 Days 6 Nights Tour"
 					subtitle="Srinagar, Gulmarg, Pahalgam, Sonmarg, Doodhpathri, Exploration"
-					peopleJoined="50+ Joined"
 				/>
 			</div>
 
