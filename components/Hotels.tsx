@@ -19,7 +19,7 @@ const Hotels = () => {
 			{HOTELS?.map((hotel, idx) => (
 				<section
 					key={hotel.title}
-					className="flexCenter  w-[80%] flex-col pb-[100px]"
+					className="flexCenter  w-[90%] flex-col pb-[100px]"
 				>
 					<div className="hotel-card w-full min-h-[650px] ">
 						<div className="w-6/12">
