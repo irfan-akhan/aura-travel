@@ -21,9 +21,9 @@ const Hotels = () => {
 					key={hotel.title}
 					className="flexCenter  w-[80%] flex-col pb-[100px]"
 				>
-					<div className="hotel-card w-full min-h-[750px] ">
+					<div className="hotel-card w-full min-h-[650px] ">
 						<div className="w-6/12">
-							<div className="flex flex-wrap justify-between gap-5 lg:gap-10">
+							<div className="flex flex-wrap justify-between gap-5 lg:gap-5">
 								<div className="lg:flexCenter hidden">
 									{hotel.tabs.map((tab) => (
 										<Button
