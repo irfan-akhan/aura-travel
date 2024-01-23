@@ -164,3 +164,19 @@ body {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
+
+.bg-tour1 {
+  background-image: url('/tour1.jpg');
+}
+.bg-tour2 {
+  background-image: url('/tour2.jpg');
+}
+.bg-tour3 {
+  background-image: url('/tour3.jpg');
+}
+.bg-tour4 {
+  background-image: url('/tour4.jpg');
+}
+.bg-tour5 {
+  background-image: url('/tour5.jpg');
+}
