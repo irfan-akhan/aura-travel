@@ -44,7 +44,7 @@ const Hotels = () => {
 						</div>
 						<div className="flexCenter gap-5">
 							<Image
-								src="/hero-1.jpg"
+								src="/hero-6.jpg"
 								alt="camp-2"
 								width={250}
 								height={350}
