@@ -47,7 +47,7 @@ const Hero = () => {
 				</div>
 				<div className="relative z-20 top-[20px] flex w-[210px] flex-col rounded-xl bg-green-90 overflow-hidden">
 					<Image
-						src="/hero-1.jpg"
+						src="/hero-6.jpg"
 						alt="gulmarg"
 						width={550}
 						height={870}

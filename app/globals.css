@@ -16,7 +16,7 @@ body {
 
 @layer utilities {
   .btn_white { 
-    @apply  border-white bg-white px-8 py-3 text-green-50
+    @apply  border-white bg-white px-2 py-1 text-green-50
   }
   .btn_white_text  { 
     @apply  border-white bg-white px-8 py-3 text-gray-90
@@ -143,8 +143,17 @@ body {
   .contact {
     @apply max-container relative flex w-full  flex-col justify-between gap-32 overflow-hidden bg-green-90 bg-pattern bg-cover bg-center bg-no-repeat px-6 py-12 text-white sm:flex-row sm:gap-12 sm:py-24 lg:px-20 xl:max-h-[598px] 2xl:rounded-5xl;
   }
+  /* Get App */
+  .hotel-card  {
+    @apply max-container relative flex w-full  flex-col justify-between gap-20 overflow-hidden bg-pattern bg-gray-700  bg-cover bg-center bg-no-repeat px-6 py-8 text-white sm:flex-row sm:gap-12 sm:py-16 lg:px-12 xl:max-h-[598px] rounded-t-2xl;
+  }
+  .hotel-list-card {
+    @apply max-container relative flex w-full  flex-col justify-between gap-20 overflow-hidden bg-pattern bg-gray-700  bg-cover bg-center bg-no-repeat px-6 py-8 text-white sm:flex-row sm:gap-12 sm:py-5 lg:px-20 xl:max-h-[598px] rounded-b-2xl;
+  }
+   
 }
 
+ 
 /* Hide scrollbar for Chrome, Safari and Opera */
 .hide-scrollbar::-webkit-scrollbar {
   display: none;
@@ -154,4 +163,20 @@ body {
 .hide-scrollbar {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
+}
+
+.bg-tour1 {
+  background-image: url('/tour1.jpg');
+}
+.bg-tour2 {
+  background-image: url('/tour2.jpg');
+}
+.bg-tour3 {
+  background-image: url('/tour3.jpg');
+}
+.bg-tour4 {
+  background-image: url('/tour4.jpg');
+}
+.bg-tour5 {
+  background-image: url('/tour5.jpg');
 }
