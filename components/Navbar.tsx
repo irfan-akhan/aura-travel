@@ -24,7 +24,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`flexBetween padding-container fixed z-30 py-4 ${shadow}  w-screen transition-all ease-in-out duration-300 ${bg}`}
+      className={`flexBetween padding-container fixed z-30 py-3 ${shadow}  w-screen transition-all ease-in-out duration-300 ${bg}`}
     >
       <Link href="/" className="flex justify-center items-center gap-3">
         <Image
