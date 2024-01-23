@@ -5,7 +5,7 @@ import { HOTELS } from "@/constants";
 
 const Hotels = () => {
 	return (
-		<>
+		<div className=" flexCenter flex-col my-12">
 			<div className="relative flexCenter my-12">
 				<Image
 					src="/camp.svg"
@@ -19,9 +19,9 @@ const Hotels = () => {
 			{HOTELS?.map((hotel, idx) => (
 				<section
 					key={hotel.title}
-					className="flexCenter  w-full flex-col pb-[100px]"
+					className="flexCenter  w-[80%] flex-col pb-[100px]"
 				>
-					<div className="hotel-card  w-full min-h-[750px] ">
+					<div className="hotel-card w-full min-h-[750px] ">
 						<div className="w-6/12">
 							<div className="flex flex-wrap justify-between gap-5 lg:gap-10">
 								<div className="lg:flexCenter hidden">
@@ -168,7 +168,7 @@ const Hotels = () => {
 					</div>
 				</section>
 			))}
-		</>
+		</div>
 	);
 };
 

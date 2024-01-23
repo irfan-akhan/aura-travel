@@ -145,10 +145,10 @@ body {
   }
   /* Get App */
   .hotel-card  {
-    @apply max-container relative flex w-full  flex-col justify-between gap-20 overflow-hidden bg-pattern bg-gray-700  bg-cover bg-center bg-no-repeat px-6 py-8 text-white sm:flex-row sm:gap-12 sm:py-16 lg:px-12 xl:max-h-[598px] 2xl:rounded-t-2xl;
+    @apply max-container relative flex w-full  flex-col justify-between gap-20 overflow-hidden bg-pattern bg-gray-700  bg-cover bg-center bg-no-repeat px-6 py-8 text-white sm:flex-row sm:gap-12 sm:py-16 lg:px-12 xl:max-h-[598px] rounded-t-2xl;
   }
   .hotel-list-card {
-    @apply max-container relative flex w-full  flex-col justify-between gap-20 overflow-hidden bg-pattern bg-gray-700  bg-cover bg-center bg-no-repeat px-6 py-8 text-white sm:flex-row sm:gap-12 sm:py-5 lg:px-20 xl:max-h-[598px] 2xl:rounded-b-2xl;
+    @apply max-container relative flex w-full  flex-col justify-between gap-20 overflow-hidden bg-pattern bg-gray-700  bg-cover bg-center bg-no-repeat px-6 py-8 text-white sm:flex-row sm:gap-12 sm:py-5 lg:px-20 xl:max-h-[598px] rounded-b-2xl;
   }
    
 }
