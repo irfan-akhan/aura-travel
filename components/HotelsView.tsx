@@ -16,10 +16,16 @@ const HotelsView = () => {
 				/>
 				<h2 className="bold-40 lg:bold-64">Featured Destinations</h2>
 			</div>
-			{HOTELS?.map((hotel) => (
+			{HOTELS?.map((hotel, idx) => (
 				<main
 					key={hotel.title}
-					className="max-w-[1960px] mx-auto my-6 py-6 bg-pahalgam"
+					className={`max-w-[1960px] mx-auto my-6 py-6 ${
+						idx === 0
+							? "bg-pahalgam"
+							: idx === 1
+							? "bg-gulmarg"
+							: " bg-srinagar"
+					}`}
 				>
 					<section className="max-container padding-container flex flex-col gap-20 py-5 pb-32 mt-20 md:gap-10 lg:py-10 xl:flex-row">
 						<div className=" flex flex-1 flex-col xl:w-1/2 pl-3">

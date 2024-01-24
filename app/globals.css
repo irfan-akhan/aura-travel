@@ -181,16 +181,16 @@ body {
   background-image: url('/tour4.jpg');
 }
 .bg-tour5 {
-  background-image: url('/tour5.jpg');}
+  background-image: url('/tour5.jpg');
+}
 .bg-gulmarg {
-  /* background-image: url('/gulmarg-bg.jpg'); */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;  
   background-image: 
-  linear-gradient(120deg, rgba(255,255,255,1) 1%, rgba(255,255,255,1) 25%, rgba(255,255,255,0) 100%),
-  url('/gulmarg-bg.jpg') ;
- 
+  linear-gradient(125deg, rgba(255, 255, 255, 0.777) 45%, rgba(0, 0, 0, 0.415) 20%, rgba(3, 3, 3, 0.274) 100%),
+  url('/gulmarg-bg-2.jpg') ;
+  
 }
 .bg-pahalgam {
   background-position: center;
@@ -198,10 +198,10 @@ body {
   background-repeat: no-repeat;  
   background-image: 
   linear-gradient(125deg, rgba(255, 255, 255, 0.777) 45%, rgba(0, 0, 0, 0.415) 20%, rgba(3, 3, 3, 0.274) 100%),
-  url('/gulmarg-bg.jpg') ;
+  url('/pahalgam-bg.jpg') ;
  
 }
-.bg-pahalgam {
+.bg-srinagar {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;  
