@@ -24,7 +24,7 @@ const Hotels = () => {
 					<div className="hotel-card w-full min-h-[650px] ">
 						<div className="w-6/12">
 							<div className="flex flex-wrap justify-between gap-5 lg:gap-5">
-								<div className="lg:flexCenter hidden">
+								<div className="lg:flexCenter">
 									{hotel.tabs.map((tab) => (
 										<Button
 											type="button"
@@ -85,16 +85,16 @@ const Hotels = () => {
 						</div>
 					</div>
 					<div className="hotel-list-card w-full min-h-[350px]">
-						<div className="bg-white w-full h-full rounded-lg overflow-hidden">
+						<div className="bg-white flexBetween w-full h-full rounded-lg overflow-hidden">
 							<Image
 								src="/hero-3.jpg"
 								alt="meter"
-								width={130}
-								height={78}
-								className="w-auto"
+								width={80}
+								height={40}
+								// className="w-auto"
 							/>
 							<div className="flex flex-wrap justify-between gap-2 lg:gap-3 px-3">
-								<h2 className="bold-16 lg:bold-20 text-green-50">
+								<h2 className="bold-16 lg:bold-16 text-green-50">
 									Green Heights
 								</h2>
 								{/* <p className="regular-14 text-red-400   pr-16">
@@ -102,67 +102,77 @@ const Hotels = () => {
 							our exclusive tour package. Nestled in the
 							 `}
 						</p> */}
+								<p className="regular-14 text-green-600">
+									Gulmarg
+								</p>
 							</div>
 						</div>
-						<div className="bg-white w-full h-full rounded-lg overflow-hidden">
+						<div className="bg-white flexBetween w-full h-full rounded-lg overflow-hidden">
 							<Image
 								src="/hero-3.jpg"
 								alt="meter"
-								width={150}
-								height={78}
-								className="w-auto "
+								width={80}
+								height={40}
+								// className="w-auto"
 							/>
-							<div className="flex flex-wrap justify-between gap-2 lg:gap-3  px-3">
-								<h2 className="bold-16 lg:bold-20   text-green-50">
+							<div className="flex flex-wrap justify-between gap-2 lg:gap-3 px-3">
+								<h2 className="bold-16 lg:bold-16 text-green-50">
 									Sun and Shades
 								</h2>
-								{/* <p className="regular-14 text-red-400   pr-16">
-							{`Indulge in the captivating beauty of Pahalgam with
-							our exclusive tour package. Nestled in the
-							 `}
-						</p> */}
+								<p className="regular-14 text-green-600">
+									Gulmarg
+								</p>
 							</div>
 						</div>
-						<div className="bg-white w-full h-full rounded-lg overflow-hidden">
+						<div className="bg-white flexBetween w-full h-full rounded-lg overflow-hidden">
 							<Image
 								src="/hero-3.jpg"
 								alt="meter"
-								width={150}
-								height={78}
-								className="w-auto "
+								width={80}
+								height={40}
+								// className="w-auto"
 							/>
-							<div className="flex flex-wrap justify-between gap-2 lg:gap-3  px-3">
-								<h2 className="bold-16 lg:bold-20   text-green-50">
+							<div className="flex flex-wrap justify-between gap-2 lg:gap-3 px-3">
+								<h2 className="bold-16 lg:bold-16 text-green-50">
 									Hotel Mount View
 								</h2>
+								<p className="regular-14 text-green-600">
+									Gulmarg
+								</p>
 							</div>
 						</div>
-						<div className="bg-white w-full h-full rounded-lg overflow-hidden">
+						<div className="bg-white flexBetween w-full h-full rounded-lg overflow-hidden">
 							<Image
 								src="/hero-3.jpg"
 								alt="meter"
-								width={150}
-								height={78}
-								className="w-auto "
+								width={80}
+								height={40}
+								// className="w-auto"
 							/>
-							<div className="flex flex-wrap justify-between gap-2 lg:gap-3  px-3">
-								<h2 className="bold-16 lg:bold-20   text-green-50">
+							<div className="flex flex-wrap justify-between gap-2 lg:gap-3 px-3">
+								<h2 className="bold-16 lg:bold-16 text-green-50">
 									Hotel Baiseran
 								</h2>
+								<p className="regular-14 text-green-600">
+									Gulmarg
+								</p>
 							</div>
 						</div>
-						<div className="bg-white w-full h-full border shadow-2xl  md:left-[5%] lg:top-20 shadow-blue-200/50 ">
+						<div className="bg-white flex w-full h-full rounded-lg overflow-hidden">
 							<Image
 								src="/hero-3.jpg"
 								alt="meter"
-								width={100}
-								height={48}
-								className="w-auto "
+								width={80}
+								height={40}
+								// className="w-auto"
 							/>
-							<div className="flex flex-wrap justify-between gap-2 lg:gap-3  px-3">
-								<h2 className="bold-16 lg:bold-20   text-green-50">
+							<div className="flex flex-wrap justify-start align-start gap-2 lg:gap-1 px-3">
+								<h2 className="bold-16 lg:bold-16 text-green-50">
 									Home 2
 								</h2>
+								<p className="regular-14 text-green-600">
+									Gulmarg
+								</p>
 							</div>
 						</div>
 					</div>

@@ -22,7 +22,7 @@ body {
     @apply  border-white bg-white px-8 py-3 text-gray-90
   }
   .btn_green  { 
-    @apply  border-green-50 bg-green-50 px-8 py-5 text-white
+    @apply  border-green-50 bg-green-50 px-3 py-1 text-white
   }
   .btn_dark_green { 
     @apply  bg-green-90 px-8 py-4 text-white transition-all hover:bg-black
@@ -150,7 +150,10 @@ body {
   .hotel-list-card {
     @apply max-container relative flex w-full  flex-col justify-between gap-20 overflow-hidden bg-pattern bg-gray-700  bg-cover bg-center bg-no-repeat px-6 py-8 text-white sm:flex-row sm:gap-12 sm:py-5 lg:px-20 xl:max-h-[598px] rounded-b-2xl;
   }
-   
+  .bg-hotels {
+    @apply  bg-pattern bg-cover bg-center bg-no-repeat;
+  }
+  
 }
 
  
@@ -178,5 +181,32 @@ body {
   background-image: url('/tour4.jpg');
 }
 .bg-tour5 {
-  background-image: url('/tour5.jpg');
+  background-image: url('/tour5.jpg');}
+.bg-gulmarg {
+  /* background-image: url('/gulmarg-bg.jpg'); */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;  
+  background-image: 
+  linear-gradient(120deg, rgba(255,255,255,1) 1%, rgba(255,255,255,1) 25%, rgba(255,255,255,0) 100%),
+  url('/gulmarg-bg.jpg') ;
+ 
+}
+.bg-pahalgam {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;  
+  background-image: 
+  linear-gradient(125deg, rgba(255, 255, 255, 0.777) 45%, rgba(0, 0, 0, 0.415) 20%, rgba(3, 3, 3, 0.274) 100%),
+  url('/gulmarg-bg.jpg') ;
+ 
+}
+.bg-pahalgam {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;  
+  background-image: 
+  linear-gradient(125deg, rgba(10, 10, 10, 0.777) 45%, rgba(0, 0, 0, 0.415) 20%, rgba(3, 3, 3, 0.274) 100%),
+  url('/srinagar-bg-4.jpg') ;
+ 
 }

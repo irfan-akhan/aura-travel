@@ -17,14 +17,15 @@ export const PEOPLE_URL = [
 // HOTELS SECTION
 export const HOTELS = [
 	{
-		title: "Enchanting Pahalgam: A Gateway to Paradise",
+		title: "Enchanting Pahalgam A Gateway to Paradise",
 		imageSet: ["/map.svg"],
-		tabs: [
-			"Hourse Ridding",
-			"Sightseeing",
-			"River Rafting",
-			"Golfing",
-			"Camping",
+		tabs: ["Hourse Ridding", "River Rafting", "Golfing", "Camping"],
+		list: [
+			"Green Heights",
+			"Sun and Shades",
+			"Hotel Mount View",
+			"Hotel Baiseran",
+			"Home 2",
 		],
 		description:
 			"Nestled in the enchanting landscapes of Jammu and Kashmir, Pahalgam offers a perfect getaway for those seeking tranquility and natural splendor. Immerse yourself in the serene vibes, picturesque meadows, and the scenic Lidder River. From leisurely walks to the breathtaking vistas of Betaab Valley. Let Pahalgam be your haven for a blissful escape amidst nature's wonders.",
@@ -32,13 +33,13 @@ export const HOTELS = [
 	{
 		title: "Gulmarg Bliss: A Winter Wonderland in the Heart of Kashmir",
 		imageSet: ["/map.svg"],
-		tabs: [
-			"Gondola",
-			"Sightseeing",
-			"Apharwat Peak",
-			"snowboarding",
-			"skiing",
-			"Camping",
+		tabs: ["Gondola", "Apharwat Peak", "snowboarding", "skiing", "Camping"],
+		list: [
+			"Green Heights",
+			"Sun and Shades",
+			"Hotel Mount View",
+			"Hotel Baiseran",
+			"Home 2",
 		],
 		description:
 			"Gulmarg a winter paradise. Experience the enchanting beauty of this snow-laden haven. Known for its pristine landscapes and world-class skiing opportunities, Immerse yourself in the thrill of snow sports, surrounded by towering pines. With its majestic views of the Himalayas and the iconic Gulmarg Gondola, the highest cable car in the world, Gulmarg promises a winter wonderland experience like no other.",
@@ -48,12 +49,18 @@ export const HOTELS = [
 		imageSet: ["/map.svg"],
 		tabs: [
 			"Mughal Gardens",
-			"Sightseeing",
-			"Dal lake",
-			"Golfing",
+			"Dal Lake",
 			"Hazratbal Shrine",
 			"Jamia Masjid",
 		],
+		list: [
+			"Green Heights",
+			"Sun and Shades",
+			"Hotel Mount View",
+			"Hotel Baiseran",
+			"Home 2",
+		],
+
 		description:
 			"Srinagar the crown jewel of Kashmir, with our bespoke tour package. Cruise the tranquil waters on a traditional Shikara, surrounded by floating gardens and historic Mughal gardens like Shalimar Bagh and Nishat Bagh. Explore the vibrant old city with its bustling markets, showcasing exquisite handicrafts and spices. The charm of houseboats and the backdrop of snow-capped mountains make Srinagar a truly enchanting destination.",
 	},

@@ -11,13 +11,11 @@ type ButtonProps = {
 const Button = ({ type, title, icon, variant, full }: ButtonProps) => {
   return (
 		<button
-			className={`flexCenter rounded-full border mx-2 ${variant}`}
+			className={`flexCenter rounded-full border mx-1 ${variant}`}
 			type={type}
 		>
 			{icon && <Image src={icon} alt={title} width={20} height={20} />}
-			<label className="regular-14 whitespace-nowrap cursor-pointer">
-				{title}
-			</label>
+			<label className="regular-14 whitespace-nowrap  ">{title}</label>
 		</button>
   );
 }
