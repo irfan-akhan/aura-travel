@@ -47,15 +47,30 @@ const HotelsView = () => {
 						</div>
 
 						<div className="relative flex flex-1 items-center gap-3">
-							<div className=" relative top-[10px] z-20 flex w-[210px] flex-col rounded-xl bg-green-90 overflow-hidden">
-								<Image
-									src="/hero-1.jpg"
-									alt="gulmarg"
-									width={550}
-									height={870}
-								/>
-							</div>
-							<div className="relative z-20 top-[20px] left-[-40px] flex w-[210px] flex-col rounded-xl bg-green-90 overflow-hidden">
+							{hotel.imageSet.map((img, idx) => {
+								{
+									console.log(
+										"hotel.imageSet",
+										hotel.imageSet
+									);
+								}
+								return (
+									<div
+										key={idx}
+										className="relative top-[10px] z-20 flex w-[210px] flex-col rounded-xl bg-green-90 overflow-hidden"
+									>
+										<Image
+											src={`/${img}`}
+											alt="gulmarg"
+											width={550}
+											height={870}
+										/>
+									</div>
+								);
+							})}
+						</div>
+
+						{/* <div className="relative z-20 top-[20px] left-[-40px] flex w-[210px] flex-col rounded-xl bg-green-90 overflow-hidden">
 								<Image
 									src="/hero-5.jpg"
 									alt="gulmarg"
@@ -70,18 +85,23 @@ const HotelsView = () => {
 									width={550}
 									height={870}
 								/>
-							</div>
-						</div>
+							</div> */}
+						{/* </div> */}
 					</section>
 					<section className="max-container padding-container flex flex-col py-10 pb-32  md:gap-28 lg:py-20 xl:flex-row">
-						<div className="flex flex-col justify-center flex-wrap w-full gap-5 mb-4 sm:flex-row">
-							{hotel.list?.map((name) => (
-								<div className="max-w-sm bg-slate-200 max-[600px]:w-[70%]  rounded-lg shadow rounded-lg ">
-									<Image
-										src="/hero-3.jpg"
-										alt="meter"
-										width={180}
-										height={40}
+						<div className="flex justify-center flex-wrap w-full gap-5 mb-4 sm:flex-row sm:flex-wrap">
+							{hotel.list?.map((name, idx) => (
+								<div className="max-w-sm bg-slate-200 max-[720px]:w-[170px]  rounded-lg shadow rounded-lg ">
+									<img
+										src={hotel.listImages[idx]}
+										alt={name}
+										// width={180}
+										// height={40}
+										style={{
+											width: "170px",
+											objectFit: "cover",
+											height: "170px",
+										}}
 										className="max-[600px]:w-full max-[600px]:h-[45vh] rounded-t-lg"
 									/>
 									<p className="my-4 text-center font-semibold">
