@@ -38,18 +38,18 @@ const HotelsView = () => {
 									/>
 								))}
 							</div>
-							<h1 className="bold-32 text-8xl text-white lg:bold-40">
+							<h1 className="bold-32 text-8xl text-white max-[720px]:text-xl lg:bold-40">
 								{hotel.title}
 							</h1>
-							<p className="regular-20 mt-6  text-slate-300 xl:max-w-[520px]">
+							<p className="regular-20 mt-6 max-[720px]:text-sm text-slate-300 xl:max-w-[520px]">
 								{hotel.description}
 							</p>
 						</div>
 
 						<div className="relative flex flex-1 items-center gap-3">
-							<div className=" top-[-15px] z-20 flex w-[210px] flex-col rounded-xl bg-green-90 overflow-hidden">
+							<div className=" relative top-[10px] z-20 flex w-[210px] flex-col rounded-xl bg-green-90 overflow-hidden">
 								<Image
-									src="/hero-4.jpg"
+									src="/hero-1.jpg"
 									alt="gulmarg"
 									width={550}
 									height={870}
@@ -57,7 +57,7 @@ const HotelsView = () => {
 							</div>
 							<div className="relative z-20 top-[20px] left-[-40px] flex w-[210px] flex-col rounded-xl bg-green-90 overflow-hidden">
 								<Image
-									src="/hero-6.jpg"
+									src="/hero-5.jpg"
 									alt="gulmarg"
 									width={550}
 									height={870}
@@ -65,7 +65,7 @@ const HotelsView = () => {
 							</div>
 							<div className="relative z-20 top-[30px] left-[-70px] flex w-[210px] flex-col rounded-xl bg-green-90 overflow-hidden">
 								<Image
-									src="/hero-5.jpg"
+									src="/hero-6.jpg"
 									alt="gulmarg"
 									width={550}
 									height={870}
@@ -76,13 +76,13 @@ const HotelsView = () => {
 					<section className="max-container padding-container flex flex-col py-10 pb-32  md:gap-28 lg:py-20 xl:flex-row">
 						<div className="flex flex-col justify-center flex-wrap w-full gap-5 mb-4 sm:flex-row">
 							{hotel.list?.map((name) => (
-								<div className="max-w-sm bg-slate-200  rounded-lg shadow rounded-lg ">
+								<div className="max-w-sm bg-slate-200 max-[600px]:w-[70%]  rounded-lg shadow rounded-lg ">
 									<Image
 										src="/hero-3.jpg"
 										alt="meter"
 										width={180}
 										height={40}
-										className=" rounded-t-lg"
+										className="max-[600px]:w-full max-[600px]:h-[45vh] rounded-t-lg"
 									/>
 									<p className="my-4 text-center font-semibold">
 										{name}
