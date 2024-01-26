@@ -21,8 +21,8 @@ export default function page() {
   return (
     <div className="min-h-screen py-6 mt-28 w-full">
       <div className="flex gap-28 items-start h-[60vh] w-full mx-20">
-        <div className="w-1/2 flex flex-col gap-5 items-start">
-          <h1 className="text-4xl font-semibold">Tour Heading</h1>
+        <div className="w-1/2 flex flex-col gap-5 items-start text-gray-50">
+          <h1 className="text-4xl font-semibold text-black">Tour Heading</h1>
           <p>
             Embark on an unforgettable 3-day, 2-night exploration of the idyllic
             landscapes of Kashmir, famously known as the 'Paradise on Earth.'
@@ -173,7 +173,7 @@ export default function page() {
             />
           </div>
         </div>
-        <div className="w-3/2 bg-[#031F0F] z-0 min-h-[90vh] pl-56 pt-6">
+        <div className="w-3/2 bg-[#031F0F] z-0 min-h-[90vh] text-[#A4A4A4] pl-56 pt-6">
           <h2 className="text-xl text-gray-300 font-medium mb-3">
             HAVE A LOOK IN DETAIL
           </h2>

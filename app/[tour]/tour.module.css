@@ -7,8 +7,8 @@
 .accordian {
     max-width: 100%;
     width: 700px;
-    border-top: 1px solid #E3D6E2;
-    border-bottom: 1px solid #E3D6E2;
+    border-top: 1px solid #A4A4A4;
+    border-bottom: 1px solid #A4A4A4;
     margin-bottom: 5px;
     cursor: pointer;
 }
@@ -21,7 +21,7 @@
 
 
 .title {
-    color: white;
+    color: #585858;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -30,10 +30,9 @@
 }
 
 .content {
-    color: white;
+    color: #A4A4A4;
     height: auto;
     text-align: left;
     font-weight: 300;
-    padding: 5px 0;
-    font-size: 18px;
+    padding-top: 5px 0;
 }
