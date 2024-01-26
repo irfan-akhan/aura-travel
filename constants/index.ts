@@ -18,35 +18,50 @@ export const PEOPLE_URL = [
 export const HOTELS = [
 	{
 		title: "Enchanting Pahalgam A Gateway to Paradise",
-		imageSet: ["/map.svg"],
+		imageSet: ["pahalgam-2.jpg", "pahalgam-1.jpg", "pahalgam-3.jpg"],
+
 		tabs: ["Hourse Ridding", "River Rafting", "Golfing", "Camping"],
 		list: [
 			"Green Heights",
-			"Sun and Shades",
+			"Sun & Shades",
 			"Hotel Mount View",
 			"Hotel Baiseran",
-			"Home 2",
+			"Hotel Home 2",
+		],
+		listImages: [
+			"/green-heights.jpg",
+			"/sun-and-shades.jpg",
+			"/hotel-mount-view.jpg",
+			"/hotel-baiseran.jpg",
+			"/home-2.jpg",
 		],
 		description:
 			"Nestled in the enchanting landscapes of Jammu and Kashmir, Pahalgam offers a perfect getaway for those seeking tranquility and natural splendor. Immerse yourself in the serene vibes, picturesque meadows, and the scenic Lidder River. From leisurely walks to the breathtaking vistas of Betaab Valley. Let Pahalgam be your haven for a blissful escape amidst nature's wonders.",
 	},
 	{
 		title: "Gulmarg Bliss: A Winter Wonderland in the Heart of Kashmir",
-		imageSet: ["/map.svg"],
+		imageSet: ["gulmarg-1.jpg", "gulmarg-2.jpg", "gulmarg-3.jpg"],
 		tabs: ["Gondola", "Apharwat Peak", "snowboarding", "skiing", "Camping"],
 		list: [
-			"Green Heights",
-			"Sun and Shades",
-			"Hotel Mount View",
-			"Hotel Baiseran",
-			"Home 2",
+			"Royal Castle ",
+			"Gulmarg House",
+			"Royal Park",
+			"Pine Palace Resort",
+			"Pine Palace Platinum",
+		],
+		listImages: [
+			"/royal-castle.jpg",
+			"/gulmarg-house.jpg",
+			"/royal-park.jpg",
+			"/pine-palace-resort.jpg",
+			"/pine-palace-platinum.jpg",
 		],
 		description:
 			"Gulmarg a winter paradise. Experience the enchanting beauty of this snow-laden haven. Known for its pristine landscapes and world-class skiing opportunities, Immerse yourself in the thrill of snow sports, surrounded by towering pines. With its majestic views of the Himalayas and the iconic Gulmarg Gondola, the highest cable car in the world, Gulmarg promises a winter wonderland experience like no other.",
 	},
 	{
 		title: "Srinagar Serenity: A Tranquil Escape in the Heart of the Dal Lake",
-		imageSet: ["/map.svg"],
+		imageSet: ["srinagar-4.jpg", "srinagar-2.jpg", "srinagar-1.jpg"],
 		tabs: [
 			"Mughal Gardens",
 			"Dal Lake",
@@ -54,13 +69,19 @@ export const HOTELS = [
 			"Jamia Masjid",
 		],
 		list: [
-			"Green Heights",
-			"Sun and Shades",
-			"Hotel Mount View",
-			"Hotel Baiseran",
-			"Home 2",
+			"Hotel Milan",
+			"Hotel Royal Batoo",
+			"Sahara Grand Hills",
+			"Hotel Asian Park",
+			"German Residency",
 		],
-
+		listImages: [
+			"/hotel-milan.jpg",
+			"/hotel-royal-batoo.jpg",
+			"/sahara-grand-hills.jpg",
+			"/hotel-asian-park.jpg",
+			"/hotel-german-residency.jpg",
+		],
 		description:
 			"Srinagar the crown jewel of Kashmir, with our bespoke tour package. Cruise the tranquil waters on a traditional Shikara, surrounded by floating gardens and historic Mughal gardens like Shalimar Bagh and Nishat Bagh. Explore the vibrant old city with its bustling markets, showcasing exquisite handicrafts and spices. The charm of houseboats and the backdrop of snow-capped mountains make Srinagar a truly enchanting destination.",
 	},
@@ -111,7 +132,7 @@ export const FOOTER_CONTACT_INFO = {
 		{ label: "Primary Phone", value: "+91 8716006004" },
 		{ label: "Secondary Phone", value: "+91 88999125611" },
 		{ label: "Other", value: "+91 7006754265" },
-		{ label: "Email Officer", value: "aurastayskashmir@gmail.com" },
+		{ label: "Email", value: "aurastayskashmir@gmail.com" },
 	],
 };
 
