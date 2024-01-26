@@ -14,8 +14,8 @@ const Hero = () => {
 					height={50}
 					className="absolute left-[-5px] top-[-30px] w-10 lg:w-[50px]"
 				/>
-				<h1 className="bold-52 text-8xl lg:bold-68">Explore Kashmir with us</h1>
-				<p className="regular-16 mt-6 text-gray-30 xl:max-w-[520px]">
+				<h1 className="bold-64 text-6xl lg:bold-68">Explore Kashmir with us</h1>
+				<p className="regular-16 mt-6 text-gray-50 xl:max-w-[520px]">
 				Embark on an enchanting journey to Kashmir with us, where every moment is a symphony of beauty and tranquility. Our curated tours offer an immersive experience, unveiling the timeless allure of the 'Paradise on Earth.' From the snow-capped peaks of Gulmarg to the serene Dal Lake, explore the cultural richness of Srinagar and the pristine valleys that define Kashmir. Indulge in the warmth of local hospitality and savor the flavors of authentic cuisine. Let us guide you through the breathtaking landscapes and captivating traditions, ensuring your Kashmir sojourn is a seamless blend of discovery and relaxation.
 				</p>
 

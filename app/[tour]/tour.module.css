@@ -1,0 +1,39 @@
+.wrapper {
+    display: flex;
+    height: fit-content;
+    flex-direction: column;
+    padding-right: 10px;
+}
+.accordian {
+    max-width: 100%;
+    width: 700px;
+    border-top: 1px solid #E3D6E2;
+    border-bottom: 1px solid #E3D6E2;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.item {
+    background: transparent;
+    margin-bottom: 10px;
+    padding: 20px 10px;
+}
+
+
+.title {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.content {
+    color: white;
+    height: auto;
+    text-align: left;
+    font-weight: 300;
+    padding: 5px 0;
+    font-size: 18px;
+}

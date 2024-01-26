@@ -78,6 +78,9 @@ body {
   .regular-18 {
     @apply text-[18px] font-[400];
   }
+  .regular-17 {
+    @apply text-[18px] font-[400];
+  }
 
   .regular-16 {
     @apply text-[16px] font-[400];
@@ -96,7 +99,7 @@ body {
   }
 
   .bold-64 {
-    @apply text-[64px] font-[700] leading-[120%];
+    @apply text-[60px] font-[700] leading-[120%];
   }
 
   .bold-52 {
