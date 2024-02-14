@@ -5,7 +5,7 @@ import { HOTELS } from "@/constants";
 
 const Hotels = () => {
 	return (
-		<div className=" flexCenter flex-col my-12">
+		<div className=" flexCenter flex-col my-12" id="hotels">
 			<div className="relative flexCenter my-12">
 				<Image
 					src="/camp.svg"

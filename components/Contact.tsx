@@ -3,7 +3,7 @@ import { MdOutlineCall, MdOutlineEmail } from "react-icons/md";
 
 const Contact = () => {
 	return (
-		<section className="flex w-full  mt-40 pb-[100px]">
+		<section className="flex w-full  mt-40 pb-[100px]" id="contact">
 			<div className="contact min-h-[500px] text-center ">
 				<h2 className="bold-40 lg:bold-64 text-center max-[720px]:mb-16">
 					Contact Us
