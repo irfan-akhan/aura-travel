@@ -16,7 +16,7 @@ const Hotels = () => {
 				/>
 				<h2 className="bold-40 lg:bold-64">Featured Destinations</h2>
 			</div>
-			{HOTELS?.map((hotel, idx) => (
+			{HOTELS?.map((hotel) => (
 				<section
 					key={hotel.title}
 					className="flexCenter  w-[90%] flex-col pb-[100px]"
