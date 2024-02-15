@@ -44,7 +44,7 @@ const DestinationSite = ({ backgroundImage, title, subtitle }: SiteProps) => {
 const Destination = () => {
   return (
     <section className="2xl:max-container relative flex flex-col py-10 lg:p-10 lg:mb-10 lg:py-20 xl:mb-20">
-      <div className="pb-20 scrollbar-thumb-rounded-full scrollbar-track-rounded scrollbar scrollbar-thumb-green-700 scrollbar-track-green-500  flex h-[340px] w-full items-start justify-start gap-8 overflow-x-auto lg:h-[400px] xl:h-[640px] max-[720px]:flex-col max-[720px]:h-full max-[720px]:overflow-x-hidden">
+      <div className="pb-20 scrollbar-thumb-rounded-full scrollbar-track-rounded-full scrollbar scrollbar-thumb-green-700 scrollbar-track-green-500  flex h-[340px] w-full items-start justify-start gap-8 overflow-x-auto lg:h-[400px] xl:h-[640px] max-[720px]:flex-col max-[720px]:h-full max-[720px]:overflow-x-hidden">
         <DestinationSite
           backgroundImage="bg-tour1"
           title="Kashmir 3 Days 2 Nights Tour"

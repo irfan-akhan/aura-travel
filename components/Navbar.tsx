@@ -2,7 +2,6 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { FaWhatsapp } from "react-icons/fa";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { IoMdClose } from "react-icons/io";
 
@@ -28,9 +27,9 @@ const Navbar = () => {
 
     return (
       <nav
-        className={` padding-container fixed z-30 py-3 ${shadow}  w-screen transition-all ease-in-out duration-300 ${bg}`}
+        className={` padding-container fixed z-30 ${shadow}  w-screen transition-all ease-in-out duration-300 ${bg}`}
       >
-        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-4 py-5 max-[600px]:hidden">
+        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-5 max-[600px]:hidden">
           <Link
             href="/"
             className="text-black font-semibold text-2xl flex justify-center items-center gap-2 -z-1 [600px]:hidden"
