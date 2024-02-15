@@ -102,10 +102,10 @@ const Navbar = () => {
             </ul>
           </div>
         </div>
-        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-4 py-3 max-[600px]:flex max-[600px]:justify-between min-[768px]:hidden">
+        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-3 max-[600px]:flex max-[600px]:justify-between min-[768px]:hidden">
           <Link
             href="/"
-            className="text-white font-semibold text-xl flex justify-center items-center gap-2 -z-1"
+            className="text-white font-semibold text-xl flex justify-center gap-2 items-center -z-1"
           >
             <Image
               src="/logo.jpg"
@@ -115,38 +115,32 @@ const Navbar = () => {
               height={60}
               className="rounded-full"
             />
-          </Link>
-          <span className="text-normal text-lg text-green-300 w-36">
-            Beauty and Trust Tour and Travels
+            <span className="text-normal text-lg text-black font-bold w-46">
+            Aura Stays
           </span>
+          </Link>
+          
           <div className="flex">
             <div onClick={() => setNav(!nav)}>
               {nav ? (
-                <IoMdClose size={30} color="#B8BDC6" />
+                <IoMdClose size={30} color="#000" />
               ) : (
-                <RxHamburgerMenu size={30} color="#B8BDC6" />
+                <RxHamburgerMenu size={30} color="#000" />
               )}
             </div>
 
             <Link
               href="https://wa.me/917051695835"
               type="button"
-              className="text-white bg-transparent  font-medium text-sm px-6 py-3 text-center flex items-center justify-center gap-1 max-[600px]:absolute max-[600px]:-bottom-[80vh] max-[600px]:right-0 max-[600px]:z-50"
+              className="text-black bg-white font-medium text-sm px-6 py-3 text-center flex items-center justify-center gap-1 max-[600px]:absolute max-[600px]:-bottom-[80vh] max-[600px]:right-0 max-[600px]:z-50"
             >
-              <Image
-                src="/whatsapp.png"
-                width={50}
-                height={50}
-                alt="whatsApp-Icon"
-                loading="lazy"
-              />
             </Link>
             {nav ? (
-              <ul className="flex flex-col gap-3 font-medium text-center pt-20 h-screen w-full mt-10 absolute top-10 left-0 text-lg">
+              <ul className="flex bg-white text-black flex-col gap-3 font-medium text-center pt-20 h-screen w-full mt-10 absolute top-10 left-0 text-lg">
                 <li>
                   <Link
                     href="/"
-                    className="block py-2 px-3 md:p-0 text-white bg-transparent"
+                    className="block py-2 px-3 md:p-0 bg-transparent"
                     aria-current="page"
                     onClick={() => setNav(false)}
                   >
@@ -156,7 +150,7 @@ const Navbar = () => {
                 <li>
                   <Link
                     href="/#tours"
-                    className="block py-2 px-3 md:p-0 text-white bg-transparent"
+                    className="block py-2 px-3 md:p-0 bg-transparent"
                     onClick={() => setNav(false)}
                   >
                     Tour
@@ -165,7 +159,7 @@ const Navbar = () => {
                 <li>
                   <Link
                     href="/#hotels"
-                    className="block py-2 px-3 md:p-0 text-white bg-transparent"
+                    className="block py-2 px-3 md:p-0 bg-transparent"
                     onClick={() => setNav(false)}
                   >
                     Hotels
@@ -174,7 +168,7 @@ const Navbar = () => {
                 <li>
                   <Link
                     href="/aboutus"
-                    className="block py-2 px-3 md:p-0 text-white rounded bg-transparent"
+                    className="block py-2 px-3 md:p-0  rounded bg-transparent"
                     onClick={() => setNav(false)}
                   >
                     About us
@@ -183,7 +177,7 @@ const Navbar = () => {
                 <li>
                   <Link
                     href="/contact"
-                    className="block py-2 px-3 md:p-0 text-white rounded bg-transparent"
+                    className="block py-2 px-3 md:p-0 rounded bg-transparent"
                     onClick={() => setNav(false)}
                   >
                     Contact

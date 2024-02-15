@@ -140,7 +140,7 @@ export const TOURS = [
   {
     id: 1,
     title: "Kashmir 3 Nights and 4 Days",
-    image: "/df.jpg",
+    image: "/tour1.jpg",
     subtitle: "Srinagar, Gulmarg, Pahalgam",
     tourHeading: "3NIGHTS-AND-4DAYS",
     overview: `Kashmir 4D3N Tour has been designed to give Tourists an Everlasting Experience of Kashmir’s Mesmerising Scenic Beauty, Rich Culture & Heartwarming Hospitality. Ask your Tour Advisor for making any changes in the itinerary as per your wishes. Add “Activities”, and “Special Requests” to make Your Tour Personalised as per your Unique Taste. We encourage customers to Handpick their Touring Destinations, Hotels, Transportation, Activities, and Cuisines as per their preferences & budget. Talk to our tour advisors to know more. We request Travellers to Review us after their Tour Ends and needless to say, we love to get 5 Stars. So, the pressure is on us to meet and surpass your expectations so that you don’t give us anything short of a 5 Star rating`,
@@ -171,7 +171,7 @@ export const TOURS = [
   },
   {
     id: 2,
-    image: "/gulmarg.jpg",
+    image: "/tour2.jpg",
     title: " Kashmir 4 Nights 5 Days Tour",
     subtitle: "Srinagar, Gulmarg, Pahalgam",
     tourHeading: "4NIGHTS-AND-5DAYS",
@@ -206,7 +206,7 @@ export const TOURS = [
   },
   {
     id: 3,
-    image: "/dallake.jpg",
+    image: "/tour3.jpg",
     title: " Kashmir 5 Nights 6 Days Tour",
     subtitle: "Srinagar, Gulmarg, Pahalgam, Sonmarg",
 
@@ -260,7 +260,7 @@ export const TOURS = [
   {
     id: 4,
     title: "Kashmir 7 Days 6 Nights Tour",
-    image: "/df.jpg",
+    image: "/tour4.jpg",
     subtitle: "Srinagar, Gulmarg, Pahalgam, Sonmarg, Exploration",
     tourHeading: "6NIGHTS-AND-7DAYS",
     overview: `Kashmir 7D6N Tour has been designed to give Tourists an Everlasting Experience of Kashmir’s Mesmerising Scenic Beauty, Rich Culture & Heartwarming Hospitality. Ask your Tour Advisor for making any changes in the itinerary as per your wishes. Add “Activities”, and “Special Requests” to make Your Tour Personalised as per your Unique Taste. We encourage customers to Handpick their Touring Destinations, Hotels, Transportation, Activities, and Cuisines as per their preferences & budget. Talk to our tour advisors to know more.`,
@@ -310,7 +310,7 @@ export const TOURS = [
   {
     id: 5,
     title: "Kashmir 7 Nights and 8 Days",
-    image: "/df.jpg",
+    image: "/tour5.jpg",
     subtitle: "Srinagar, Gulmarg, Pahalgam, Sonmarg, Doodhpathri, Exploration",
     tourHeading: "7NIGHTS-AND-8DAYS",
     overview:

@@ -5,7 +5,7 @@ import { HOTELS } from "@/constants";
 
 const Hotels = () => {
 	return (
-		<div className=" flexCenter flex-col my-12" id="hotels">
+		<div className=" flexCenter flex-col my-12">
 			<div className="relative flexCenter my-12">
 				<Image
 					src="/camp.svg"
@@ -16,7 +16,7 @@ const Hotels = () => {
 				/>
 				<h2 className="bold-40 lg:bold-64">Featured Destinations</h2>
 			</div>
-			{HOTELS?.map((hotel, idx) => (
+			{HOTELS?.map((hotel) => (
 				<section
 					key={hotel.title}
 					className="flexCenter  w-[90%] flex-col pb-[100px]"

@@ -8,9 +8,9 @@ function Aboutus() {
             <Image src="/aboutus.jpg" alt='about us' height={300} width={1200} loading='lazy' style={{height:"300px", width:"100vw", objectFit:"cover"}} />
         </div>
 
-        <div className='flex justify-center items-center flex-col'>
-            <h1 className='my-16 font-bold text-3xl'>Welcome to Aura Stays - Your Gateway to Kashmir</h1>
-            <div className='p-6 flex flex-col items-center justify-center gap-8 w-4/6'>
+        <div className='flex justify-center items-center flex-col max-[720px]:p-3'>
+            <h1 className='my-16 font-bold text-3xl max-[720px]:text-xl max-[720px]:my-10 max-[720px]:text-center'>Welcome to Aura Stays - Your Gateway to Kashmir</h1>
+            <div className='p-6 flex flex-col items-center justify-center gap-8 w-4/6 max-[720px]:w-full max-[720px]:p-0'>
                 <p className='text-center'>At Aura Stays, we believe that travel is not just about visiting destinations; it's about experiencing the essence of a place, immersing yourself in its culture, and creating memories that last a lifetime. Nestled in the breathtakingly beautiful valley of Srinagar, Kashmir, Aura Stays is your trusted partner in exploring the mesmerizing land of the Himalayas.</p>
                 <h2 className='font-bold text-2xl'>Our Story</h2>
                 <p className='text-center'>Founded with a passion for hospitality and a love for Kashmir's unparalleled beauty, Aura Stays has been a pioneer in providing unforgettable travel experiences since [year of establishment]. What started as a humble endeavor has now grown into a renowned name synonymous with excellence and authenticity in the tourism industry of Kashmir.</p>
