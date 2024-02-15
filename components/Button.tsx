@@ -15,7 +15,7 @@ const Button = ({ type, title, icon, variant, full }: ButtonProps) => {
 			type={type}
 		>
 			{icon && <Image src={icon} alt={title} width={20} height={20} />}
-			<label className="regular-14 whitespace-nowrap font-bold  ">{`${title},`}</label>
+			<label className="regular-14 whitespace-nowrap font-bold  ">{`${title}`}</label>
 		</button>
   );
 }

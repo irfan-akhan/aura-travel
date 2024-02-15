@@ -29,7 +29,6 @@ const Hotels = () => {
 										<Button
 											type="button"
 											title={tab}
-											// icon="/user.svg"
 											variant="btn_white"
 										/>
 									))}
