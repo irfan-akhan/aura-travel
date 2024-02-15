@@ -128,13 +128,6 @@ const Navbar = () => {
                 <RxHamburgerMenu size={30} color="#000" />
               )}
             </div>
-
-            <Link
-              href="https://wa.me/917051695835"
-              type="button"
-              className="text-black bg-white font-medium text-sm px-6 py-3 text-center flex items-center justify-center gap-1 max-[600px]:absolute max-[600px]:-bottom-[80vh] max-[600px]:right-0 max-[600px]:z-50"
-            >
-            </Link>
             {nav ? (
               <ul className="flex bg-white text-black flex-col gap-3 font-medium text-center pt-20 h-screen w-full mt-10 absolute top-10 left-0 text-lg">
                 <li>
