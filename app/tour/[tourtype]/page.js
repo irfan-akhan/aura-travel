@@ -66,7 +66,7 @@ export default function page() {
           </div>
         </div>
       </div>
-      <div className="mx-20 max-[720px]:mx-4 max-[720px]:mt-[120vh]">
+      <div className="mx-20 max-[720px]:mx-4 max-[720px]:mt-[100vh]">
         <h1 className="text-4xl font-semibold my-14 max-[720px]:text-3xl">Included/Excluded</h1>
         <div className="flex gap-[12rem] max-[720px]:block">
           <div className="flex flex-col gap-8">
@@ -168,7 +168,7 @@ export default function page() {
               width={200}
               alt="tour-img"
               loading="lazy"
-              style={{ width: "380px", height: "350px" }}
+              style={{ width: "400px", height: "350px" }}
               className="shadow-2xl"
             />
             <Image
@@ -177,7 +177,7 @@ export default function page() {
               width={200}
               alt="tour-img"
               loading="lazy"
-              style={{ width: "380px", height: "350px" }}
+              style={{ width: "400px", height: "350px" }}
               className="shadow-2xl"
             />
           </div>
