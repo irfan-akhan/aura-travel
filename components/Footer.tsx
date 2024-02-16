@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="padding-container max-container flex w-full flex-col gap-14">
         <div className="flex flex-col items-start justify-center gap-[10%] md:flex-row">
           <div className="lg:w-[30%] sm:w-[90%] md:w-[90%]">
-            <Link href="/" className="mb-10">
+            <Link href="/" className="mb-10 font-extrabold">
               AURA STAYS
             </Link>
             <p className="regular-14 mt-6 text-left text-gray-30">
