@@ -138,7 +138,11 @@ export const FOOTER_CONTACT_INFO = {
 
 export const SOCIALS = {
   title: "Social",
-  links: ["/facebook.svg", "/instagram.svg", "/twitter.svg"],
+  links: [
+    { image:"/facebook.svg", url:"#" },
+    { image: "/instagram.svg", url:"https://www.instagram.com/aura_stays_kashmir?igsh=c2YzdGVtN2J3YmNh"},
+    { image: "/twitter.svg", url:"#" },
+  ]
 };
 
 export const TOURS = [
