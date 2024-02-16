@@ -1,9 +1,17 @@
+"use client"
+import React, { useEffect } from 'react'
 import Image from 'next/image'
-import React from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Guide = () => {
+  useEffect(() => {
+    AOS.init();
+  });
+  
   return (
-    <section className="flexCenter flex-col">
+    <section className="flexCenter flex-col" data-aos="fade-up"
+    data-aos-duration="1000" >
       <div className="padding-container max-container w-full pb-24">
         <Image src="/camp.svg" alt="camp" width={50} height={50} />
         <p className="uppercase regular-18 -mt-1 mb-3 text-green-50">
@@ -36,14 +44,14 @@ const Guide = () => {
             <div className='flex w-full flex-col'>
               <div className="flexBetween w-full">
                 <p className="regular-16 text-gray-20">Destination</p>
-                <p className="bold-16 text-green-50">48 min</p>
+                <p className="bold-16 text-green-50">120 min</p>
               </div>
-              <p className="bold-20 mt-2">Pahalgam</p>
+              <p className="bold-20 mt-2">Baisaran</p>
             </div>
 
             <div className='flex w-full flex-col'>
               <p className="regular-16 text-gray-20">Start track</p>
-              <h4 className="bold-20 mt-2 whitespace-nowrap">Baisaran</h4>
+              <h4 className="bold-20 mt-2 whitespace-nowrap">Pahalgam</h4>
             </div>
           </div>
         </div>

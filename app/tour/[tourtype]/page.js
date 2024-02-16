@@ -1,11 +1,13 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import { TiTick } from "react-icons/ti";
 import { RxCross2 } from "react-icons/rx";
 import { MdOutlineKeyboardArrowUp, MdKeyboardArrowDown } from "react-icons/md";
 import { TOURS } from "@/constants";
 import { useParams } from "next/navigation";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import Spinner from "../../../components/Spinner";
 import styles from "./tour.module.css";
 
@@ -19,18 +21,25 @@ export default function page() {
     setselected(currentId === selected ? null : currentId);
   }
 
+  useEffect(() => {
+    AOS.init();
+  });
+
   if (!tour) {
     <Spinner />;
   }
   return (
     <div className="min-h-screen py-6 mt-28 w-full">
-      <div className="flex items-start justify-between h-[60vh] w-full mx-20 gap-28 max-[720px]:block max-[720px]:mx-0 max-[720px]:px-4">
+      <div
+        className="flex items-start justify-between h-[60vh] w-full mx-20 gap-28 max-[720px]:block max-[720px]:mx-0 max-[720px]:px-4"
+        data-aos="fade-up"
+        data-aos-duration="800"
+      >
         <div className="flex w-1/2 flex-col gap-5 items-start text-gray-50 max-[720px]:w-full">
           <h1 className="text-4xl font-semibold text-black text-left mb-5 max-[720px]:text-3xl">
             {tour?.title}
           </h1>
           <p className=" max-[720px]: text-left"> {tour?.overview}</p>
-          
         </div>
         <div className="flex w-1/2 items-center gap-7 max-[720px]:w-full max-[720px]:gap-3 max-[720px]:mt-10">
           <div className="flex flex-col gap-5">
@@ -66,8 +75,14 @@ export default function page() {
           </div>
         </div>
       </div>
-      <div className="mx-20 max-[720px]:mx-4 max-[720px]:mt-[80vh]">
-        <h1 className="text-4xl font-semibold my-14 max-[720px]:text-3xl">Included/Excluded</h1>
+      <div
+        className="mx-20 max-[720px]:mx-4 max-[720px]:mt-[80vh]"
+        data-aos="fade-up"
+        data-aos-duration="500"
+      >
+        <h1 className="text-4xl font-semibold my-14 max-[720px]:text-3xl">
+          Included/Excluded
+        </h1>
         <div className="flex gap-[12rem] max-[720px]:block">
           <div className="flex flex-col gap-8">
             <div className="flex justify-start items-center gap-3">
@@ -159,7 +174,11 @@ export default function page() {
           </div>
         </div>
       </div>
-      <div className="w-full flex items-center my-28 min-h-full max-[720px]:block max-[720px]:my-4">
+      <div
+        className="w-full flex items-center my-28 min-h-full max-[720px]:block max-[720px]:my-4"
+        data-aos="fade-up"
+        data-aos-duration="800"
+      >
         <div className="w-1/2 z-50 max-[720px]:w-full">
           <div className="flex gap-5 justify-end items-center z-[100] -mr-48 max-[720px]:block max-[720px]:-mr-0">
             <Image
@@ -168,7 +187,7 @@ export default function page() {
               width={200}
               alt="tour-img"
               loading="lazy"
-              style={{ width: "400px", height: "350px" }}
+              style={{ width: "400px", height: "350px", zIndex:0}}
               className="shadow-2xl"
             />
             <Image
@@ -177,12 +196,16 @@ export default function page() {
               width={200}
               alt="tour-img"
               loading="lazy"
-              style={{ width: "400px", height: "350px" }}
+              style={{ width: "400px", height: "350px", zIndex:0 }}
               className="shadow-2xl"
             />
           </div>
         </div>
-        <div className="w-3/2 bg-[#031F0F] z-0 min-h-[90vh] text-[#A4A4A4] pl-56 pt-6 max-[720px]:pl-0 max-[720px]:w-full max-[720px]:mt-16">
+        <div
+          className="w-3/2 bg-[#031F0F] z-0 min-h-[90vh] text-[#A4A4A4] pl-56 pt-6 max-[720px]:pl-0 max-[720px]:w-full max-[720px]:mt-16"
+          data-aos="fade-up"
+          data-aos-duration="800"
+        >
           <h2 className="text-xl text-gray-300 font-medium mb-3 max-[720px]:ml-2">
             HAVE A LOOK IN DETAIL
           </h2>
@@ -210,9 +233,7 @@ export default function page() {
                         </span>
                       </div>
                       {selected === item?.id ? (
-                        <div className={styles.content}>
-                          {item?.detail}
-                        </div>
+                        <div className={styles.content}>{item?.detail}</div>
                       ) : null}
                     </div>
                   </div>

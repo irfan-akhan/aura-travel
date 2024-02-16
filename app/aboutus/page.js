@@ -1,9 +1,16 @@
+"use client"
 import Image from 'next/image'
-import React from 'react'
+import React, { useEffect } from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function Aboutus() {
+  useEffect(() => {
+		AOS.init();
+	  });
   return (
-    <div className='my-28 min-h-screen'>
+    <div className='my-28 min-h-screen'  data-aos="fade-up"
+    data-aos-duration="500">
         <div>
             <Image src="/aboutus.jpg" alt='about us' height={300} width={1200} loading='lazy' style={{height:"300px", width:"100vw", objectFit:"cover"}} />
         </div>

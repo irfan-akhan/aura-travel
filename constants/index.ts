@@ -117,7 +117,12 @@ export const FEATURES = [
 export const FOOTER_LINKS = [
   {
     title: "Quick Links",
-    links: ["Tours", "Deestinations", "Contact"],
+    links: [
+      { href: "/#tours", key: "tours", label: "Tours" },
+      { href: "/#hotels", key: "destinations ", label: "Hotels" },
+      { href: "/aboutus", key: "about_us", label: "About Us" },
+      { href: "/#contact", key: "contact_us", label: "Contact" },
+    ],
   },
 ];
 
