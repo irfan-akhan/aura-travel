@@ -27,7 +27,7 @@ const Navbar = () => {
 
     return (
       <nav
-        className={` padding-container fixed z-30 ${shadow}  w-screen transition-all ease-in-out duration-300 ${bg}`}
+        className={` padding-container fixed z-[100] ${shadow}  w-screen transition-all ease-in-out duration-300 ${bg}`}
       >
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-5 max-[600px]:hidden">
           <Link

@@ -1,16 +1,22 @@
 "use client";
+import { useEffect } from "react";
 import Image from "next/image";
 import Button from "./Button";
 import { TOURS } from "@/constants";
 import { useRouter } from "next/navigation";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Destination = () => {
   const router = useRouter();
-
+  useEffect(() => {
+    AOS.init();
+  });
   return (
     <section
       className="2xl:max-container relative flex flex-col py-10 lg:p-10 lg:mb-10 lg:py-20 xl:mb-20"
-      id="tours"
+      id="tours" data-aos="fade-up"
+      data-aos-duration="500"
     >
       <div className="pb-20 scrollbar-thumb-rounded-full scrollbar-track-rounded scrollbar scrollbar-thumb-green-700 scrollbar-track-green-500  flex h-[340px] w-full items-start justify-start gap-8 overflow-x-auto lg:h-[400px] xl:h-[640px] max-[720px]:flex-col max-[720px]:h-full max-[720px]:overflow-x-hidden">
         {TOURS.map((tour) => (
@@ -20,6 +26,8 @@ const Destination = () => {
             onClick={() => router.push(`/tour/${tour.tourHeading}`)}
             id="tours"
             key={tour?.id}
+            
+            
           >
             <div className="flex h-full flex-col max-[720px]:w-[350px]  items-start justify-between p-6 lg:px-20 lg:py-10">
               <div className="flex items-start gap-4">

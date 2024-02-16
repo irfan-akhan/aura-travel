@@ -117,7 +117,12 @@ export const FEATURES = [
 export const FOOTER_LINKS = [
   {
     title: "Quick Links",
-    links: ["Tours", "Deestinations", "Contact"],
+    links: [
+      { href: "/#tours", key: "tours", label: "Tours" },
+      { href: "/#hotels", key: "destinations ", label: "Hotels" },
+      { href: "/aboutus", key: "about_us", label: "About Us" },
+      { href: "/#contact", key: "contact_us", label: "Contact" },
+    ],
   },
 ];
 
@@ -133,7 +138,11 @@ export const FOOTER_CONTACT_INFO = {
 
 export const SOCIALS = {
   title: "Social",
-  links: ["/facebook.svg", "/instagram.svg", "/twitter.svg"],
+  links: [
+    { image:"/facebook.svg", url:"#" },
+    { image: "/instagram.svg", url:"https://www.instagram.com/aura_stays_kashmir?igsh=c2YzdGVtN2J3YmNh"},
+    { image: "/twitter.svg", url:"#" },
+  ]
 };
 
 export const TOURS = [
