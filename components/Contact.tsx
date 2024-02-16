@@ -43,7 +43,7 @@ const Contact = () => {
           >
             <MdOutlineCall className="mx-1 bold-20" />
 
-            <span>+9188999125611</span>
+            <span>+918899912611</span>
           </a>
         </div>
       </div>
