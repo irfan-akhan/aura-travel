@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="flex flex-col items-start justify-center gap-[10%] md:flex-row">
           <div className="lg:w-[30%] sm:w-[90%] md:w-[90%]">
             <Link href="/" className="mb-10">
-              AUROSTAYS
+              AURA STAYS
             </Link>
             <p className="regular-14 mt-6 text-left text-gray-30">
               We understand that different travelers come with different

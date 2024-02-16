@@ -130,7 +130,7 @@ export const FOOTER_CONTACT_INFO = {
   title: "Contact Us",
   links: [
     { label: "Primary Phone", value: "+91 8716006004" },
-    { label: "Secondary Phone", value: "+91 88999125611" },
+    { label: "Secondary Phone", value: "+918899912611" },
     { label: "Other", value: "+91 7006754265" },
     { label: "Email", value: "aurastayskashmir@gmail.com" },
   ],
