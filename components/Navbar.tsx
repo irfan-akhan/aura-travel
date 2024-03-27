@@ -44,15 +44,6 @@ const Navbar = () => {
             />
             Aura Stays
           </Link>
-          {/* <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-          <Link
-            href="https://wa.me/917051695835"
-            type="button"
-            className="text-white bg-[#25D366]  font-medium text-sm px-6 py-3 text-center flex items-center justify-center gap-1"
-          >
-            <FaWhatsapp color="#fff" fontSize={20} /> WhatsApp
-          </Link>
-        </div> */}
           <div
             className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1 poppins z-50"
             id="navbar-cta"
@@ -169,7 +160,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <Link
-                    href="/contact"
+                    href="/#contact"
                     className="block py-2 px-3 md:p-0 rounded bg-transparent"
                     onClick={() => setNav(false)}
                   >
