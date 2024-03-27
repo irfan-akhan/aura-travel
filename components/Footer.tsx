@@ -72,7 +72,7 @@ const Footer = () => {
 
         <div className="border bg-gray-20" />
         <p className="regular-14 w-full text-center text-gray-30">
-          2024 Aurastays | A product of <Link href="https://aqion.in">Aqion</Link> All rights reserved
+          2024 Aurastays | A product of <Link className="underline" target="_blank" href="https://aqion.in">Aqion</Link> All rights reserved
         </p>
       </div>
     </footer>
